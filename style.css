@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 .kbdbcbk,.youtubedbk{
-    color: #202020;
+    color: white;
 }
 
 ::-webkit-scrollbar {
@@ -24,11 +24,11 @@
 }
 
 .sidebar:hover::-webkit-scrollbar-thumb {
-    background: #717171;
+    background: black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #888;
+    background: rgb(0, 0, 0);
 }
 
 h1 {
@@ -40,7 +40,6 @@ h4 {
     text-transform: uppercase;
     margin-left: 20px;
     font-size: .9rem;
-    color: #aaa;
 }
 
 i {
@@ -56,6 +55,7 @@ a {
 hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 12px 0;
+    background-color: #000000;
 }
 
 
@@ -66,25 +66,29 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #202020;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 25px;
     padding-right: 40px;
+    height: 65px;
 }
 
 .logo-img {
     position: relative;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 #logo-txt {
-    letter-spacing: -1.5px;
+    letter-spacing: 0.7px;
+    font-size: 25px;
+    color: black;
 }
 .pk{
     font-size: 12px;
+    color: black;
 }
 
 .logo {
@@ -116,8 +120,8 @@ hr {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #121212;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color:white;
+    border: 1px solid rgb(0, 0, 0);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 12px;
@@ -132,11 +136,14 @@ hr {
     align-items: center;
     justify-content: center;
     z-index: 999;
-    background-color: #313131;
+    background-color: #dbdada;
     outline: none;
-    border: 1px solid #313131;
+    border: 1px solid #000000;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+.search:hover {
+    background-color: #bdbdbd;
 }
 
 .search-container .mic {
@@ -149,7 +156,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #181818;
+    background-color: #dbdada;
 }
 
 .profile-container {
@@ -163,8 +170,9 @@ hr {
 
 .profile-box {
     position: relative;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 25px;
@@ -196,9 +204,10 @@ img {
 .sidebar {
     padding-top: 10px;
     width: 240px;
-    background-color: #202020;
+    background-color: #ffffff;
     overflow-y: scroll;
-    color: #fff;
+    color: #000000;
+    font-weight:500;
 }
 
 .sidebar-items {
@@ -215,7 +224,7 @@ img {
 }
 
 .sidebar-item:hover {
-    background-color: #4C4C4C;
+    background-color: #d3d3d3;
 }
 
 .sidebar-item i {
@@ -231,7 +240,7 @@ img {
 
 .chips-wrapper {
     overflow-x: scroll;
-    background-color: #181818;
+    background-color: #ffffff;
     display: flex;
     padding-left: 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -244,17 +253,18 @@ img {
 
 .chip {
     margin: 12px 6px;
-    background-color: #212121;
+    background-color: #dbdada;
     padding: 6px 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
+    border: 1px solid #dbdada;
+    border-radius: 10px;
     white-space: nowrap;
     cursor: pointer;
-    color: #fff;
+    color: #000000;
+    font-weight: bold;
 }
 
 .chip:hover {
-    background-color: #4C4C4C;
+    background-color: #bdbdbd;
 }
 
 
@@ -265,7 +275,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     padding: 20px 25px;
-    background-color: #181818;
+    background-color: #ffffff;
     overflow-y: scroll;
     height: calc(100vh - 116px);
 }
@@ -289,7 +299,7 @@ img {
     z-index: 222;
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    background-color: #202020;
+    background-color: #ffffff;
 }
 
 .video-content-cover:hover {
@@ -329,7 +339,7 @@ img {
 
 
 .video-content:hover .video-details {
-    background-color: #202020;
+    background-color: #ffffff;
     padding: 10px;
 }
 
@@ -338,11 +348,13 @@ img {
     width: auto;
     height: 145px;
     display: block;
+    border: 1px solid white;
+    border-radius: 14px;
 }
 
 .video-details {
     display: flex;
-    color: #fff;
+    color: #000000;
     padding-top: 12px;
 }
 
@@ -393,10 +405,10 @@ img {
 
 .btn {
     padding: 5px 0;
-    color: #aaa;
+    color: #000000;
     text-transform: uppercase;
     width: 100%;
-    background-color: #373737;
+    background-color: #bbbbbb;
     text-align: center;
     margin: 5px 0;
     font-size: .6rem;
@@ -406,19 +418,19 @@ img {
     justify-content: center;
 }
 .btn:hover{
-    background-color: #585858;
+    background-color: #d3d3d3;
 }
 
 .btn i {
     font-size: .7rem;
     margin-right: 5px;
-    color: #aaa;
+    color: black;
 }
 
 .hidden-content {
     display: none;
     padding: 5px 10px;
-    background-color: #202020;
+    background-color: #ffffff;
 }
 
 .video-content:hover .hidden-content {
@@ -431,25 +443,26 @@ button,li,.ri-video-add-line,.ri-grid-fill,.ri-notification-4-line,.profile-box:
 }
 .sirarham{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .sirarham:visited {
-    color:white;
+    color:rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
   #all{
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .copyright-container{
     
-    border: 4px solid #212121;
+    border: 4px solid #ffffff;
     width: 200px;
     height: 200px;
     margin: auto;
     flex-wrap: wrap;
     text-align: start;
+    color: #000000;
     
   }
   .copy{
@@ -457,8 +470,16 @@ button,li,.ri-video-add-line,.ri-grid-fill,.ri-notification-4-line,.profile-box:
   }
   .copy1{
     font-size: 11px;
-    color: #626262;
+    color: #000000;
   }
   .mic:hover{
-    background-color: #626262;
+    background-color: #bdbdbd;
   }
+  .ri-search-line,.ri-mic-fill,.ri-menu-line,.ri-live-fill,.ri-notification-3-fill,i{
+    color: black;
+  }
+  .imges{
+    border: 4px solid transparent;
+    border-radius: 14px;
+  }
+  
