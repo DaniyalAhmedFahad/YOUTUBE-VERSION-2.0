@@ -82,8 +82,7 @@ hr {
 }
 
 #logo-txt {
-    letter-spacing: 0.7px;
-    font-size: 25px;
+    letter-spacing: -1.1px;
     color: black;
 }
 .pk{
@@ -125,7 +124,7 @@ hr {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 12px;
-    color: #fff;
+    color: black;
     font-size: 1rem;
 }
 
